@@ -425,7 +425,7 @@ void loop() {
   if(action == 19)  { action19(); }            // V25N34 or V25N35 set/Start Timer to/from event
   if(action == 20)  { action20(); }            // V16N98 Play audio track, or
   if(action == 21)  { action21(); }            // V37N01 Apollo 11 Launch
- // if(action == 22)  { action22(); }            // V37N06 AGC Standby - "Apollo 13" simulation
+  if(action == 22)  { action22(); }            // V37N06 AGC Standby - "Apollo 13" simulation
 
   GPSloop();
 }
@@ -1521,11 +1521,11 @@ void saturnLaunchSim(){
 
           setVerb(16,1,6);
           setNoun(44,4,4);
-          //action101();
+          action101();
 
         } else if (action == 102) {
 
-          // action102();
+           action102();
 
         } else {
 
